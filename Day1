@@ -1,0 +1,91 @@
+Day 1 - Cohort - DevOps & GIT & GITHUB
+
+
+DevOps
+=====
+
+Development + Operations 
+
+Before DevOps => Waterfall methodology -> Agile methodology
+
+Waterfall is best when requirements are fixed and predictability matters.
+Agile shines when customer needs evolve and rapid iteration is key.
+DevOps extends Agile by automating delivery and bridging Dev + Ops for speed and reliability.
+
+Waterfall methodology Flow (Documentation & Planning)
+===================================
+Requirements -> Analysis -> Design -> Coding -> Testing -> Operations
+
+Agile methodology Flow (Customer collaboration)
+==============================
+Plan -> Design -> Develop -> Test -> Deploy -> Review -> Launch
+
+DevOps Methodology Flow (Automation & Integration) 
+=================================
+
+
+Push code -> Build -> Test -> Deployment (Dev/Tst/Ldt/Uat) -> Approval -> Deploy (PRD)
+
+Continuous Integration		- Push code + Build + Test
+Continuous Delivery		- staging /pre-prod Deploy
+Continuous Deployment 	- Approval + PROD deployment
+
+SAST - Static Application Security Testing
+- Code-level issues
+- Prevent vulnerabilities
+- during coding
+DAST - Dynamic Application Security Testing
+- Runtime vulnerabilities
+- Validate exploitability
+- during testing
+
+Tasks -------->
+1. Diff bt waterfall vs agile
+2. What is agile devops
+3. Diff bt Continuous Integration vs Continuous Delivery
+4. Diff bt Continuous Delivery vs Continuous Deployment 
+5. Two line definition for SAST and DAST
+6. 4 tools name for SAST and DAST
+SAST => SonarQube, Checkmarx, Fortify Static Code Analyzer, Veracode (Static Analysis)
+DAST => OWASP ZAP, Burp Suite, Acunetix, Qualys Web Application Scanner
+7. perform the command - git rm -cache
+8. one line definition for each git commands
+
+
+
+GIT & GITHUB
+=========
+
+
+git init -> git add -> git commit -> git push
+
+
+return back
+git fetch 
+git pull
+
+
+starting every day -> git log
+
+
+
+my machine -> staging area -> local repo -> remote repo
+
+
+Topics covered today
+=============
+
+DevOps
+
+- Waterfall methodologies, agile methodologies. DevOps 
+- CICD flow
+- security practice in CICD - SAST, DAST
+- CI & CD & CD
+
+GIT & GITHUB
+
+- why GIT
+- GIT Flow
+- git commands
+- GIT practice
+
