@@ -1,2 +1,12 @@
 Cohort - Week 1 - Day2
 ======================
+
+What is git merge ?
+- git merge is used to combine the chnages from one branch to anothe rnranch
+
+How to resolve the merge conflict
+- if merging a conflilt occurs, I manually review the conflict code I keep the current changes I mark the current changes as resolved using git add and Complete the 
+
+git rebase 
+- git rebase reapplies the commits from one branch onto another base commit to maintain a clean / linear commit history, unlike merge it creates a merge commit
+
