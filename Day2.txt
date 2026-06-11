@@ -10,3 +10,16 @@ How to resolve the merge conflict
 git rebase 
 - git rebase reapplies the commits from one branch onto another base commit to maintain a clean / linear commit history, unlike merge it creates a merge commit
 
+git fetch (remote to local)
+- only download, NO MERGE
+- Downloads the latest changes from the remote repository but does not merge them into current branch
+
+git pull (remote to local)
+- fetch + merge
+- Downloads the changes and automatically merge into your current branch
+
+git cherry-pick
+- cherry-pick is used to copy or pick a specific commit id from one branch and apply it to the another branch
+
+git fork
+git clone
